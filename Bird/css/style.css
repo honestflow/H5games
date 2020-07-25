@@ -1,0 +1,33 @@
+#game {
+  width: 800px;
+  height: 600px;
+  margin: 0 auto;
+  border: solid 1px;
+  position: relative;
+  overflow: hidden; 
+
+  background: url(../img/sky.png);
+}
+
+#bird {
+  width: 34px;
+  height: 26px;
+  position: absolute;
+  background: url(../img/bird.png)  -8px -10px no-repeat;
+  left: 120px;
+  top: 120px;
+}
+
+#land{
+  width: 200%;
+  height: 80px;
+  background: url(../img/land.png);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+p{
+  text-align: center;
+  font-stretch: 20px;
+}
