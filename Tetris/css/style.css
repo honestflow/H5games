@@ -1,17 +1,31 @@
+/* 背景容器 */
 #container {
-  width: 200px;
-  height: 360px;
+  width: 400px;
+  height: 720px;
   background-color:black;
   position: relative; 
+  margin: 0 auto;
   
 }
 
+/* 活动块元素 */
 .activity_model {
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
   background-color: cadetblue;
   border: .3px solid #eeeeee;
-  box-sizing: border-box;   /*为元素指定的任何内边距和边框都将
-                              在已设定的宽度和高度内进行绘制。*/
+  box-sizing: border-box;   /* 为元素指定的任何内边距和边框都将
+                               在已设定的宽度和高度内进行绘制。*/
+  position: absolute;
+}
+
+/* 固定块元素 */
+.fixed_model {
+  width: 40px;
+  height: 40px;
+  background-color: #fefefefe;
+  border: .2px solid #333333;
+  box-sizing: border-box;   /* 为元素指定的任何内边距和边框都将
+                               在已设定的宽度和高度内进行绘制。*/
   position: absolute;
 }
