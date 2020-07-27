@@ -1,18 +1,20 @@
 /* 背景容器 */
+
+
 #container {
   width: 400px;
   height: 720px;
-  background-color:black;
+  background-color:#3c5a79;
   position: relative; 
   margin: 0 auto;
-  
 }
+
 
 /* 活动块元素 */
 .activity_model {
   width: 40px;
   height: 40px;
-  background-color: cadetblue;
+  background-color:#95a5a6;
   border: .3px solid #eeeeee;
   box-sizing: border-box;   /* 为元素指定的任何内边距和边框都将
                                在已设定的宽度和高度内进行绘制。*/
@@ -23,9 +25,16 @@
 .fixed_model {
   width: 40px;
   height: 40px;
-  background-color: #fefefefe;
+  background-color: #ecf0f1;
   border: .2px solid #333333;
   box-sizing: border-box;   /* 为元素指定的任何内边距和边框都将
                                在已设定的宽度和高度内进行绘制。*/
   position: absolute;
 }
+
+#gameContrl {
+  text-align: center;
+}
+
+
+
